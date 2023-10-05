@@ -68,6 +68,7 @@ header {
 #search-icon {
   font-size: 24px;
   cursor: pointer;
+  color: var(--bg-color);
 }
 .search-box {
   position: absolute;
@@ -95,7 +96,7 @@ header {
 .home {
   max-width: 1300px;
   margin: auto;
-  width: 100%
+  width: 100%;
   min-height: 640px;
   display: flex;
   align-items: center;
@@ -103,10 +104,7 @@ header {
   background-size: cover;
   background-position: center left;
 }
-.home-text {
-  border: 1px solid red;
-  padding: 5px;
-}
-h1, p {
+h1,
+p {
   margin: 7px 0;
 }
