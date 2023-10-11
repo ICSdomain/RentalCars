@@ -100,9 +100,9 @@ header {
   min-height: 640px;
   display: flex;
   align-items: center;
-  background: url(img/Background-home.png) no-repeat;
+  /*background: url(img/Background-home.png) no-repeat;
   background-size: cover;
-  background-position: center left;
+  background-position: center left;*/
 }
 h1,
 p {
@@ -130,4 +130,15 @@ p {
 }
 .btn:hover {
   background: #fd052f;
+}
+.heading {
+  text-align: center;
+}
+.heading span {
+  font-weight: 500;
+  color: var(--main-color);
+}
+.heading p {
+  font-size: 0.938rem;
+  font-weight: 300;
 }
